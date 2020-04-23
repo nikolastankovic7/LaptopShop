@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Prodaja laptop uređaja po najpovoljinijm cenama, dodjite i uverite se zašto smo najbolji.">
+    <meta name="keywords" content="prodaja,laptop,cena,kvalitet,usluga">
+    <meta name="author" content="Nikola Stanković, nikola.stankovic560@gmail.com">
+    <title>Laptop shop|Početna</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/novistil.css" rel="stylesheet">
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="js/bootstrap.min.js"></script>
+  
+  </head>
+  <body>
+    <div class="full-width">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="50px"  height="50px" alt="logo kompanije"></a></img>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Početna</a></li>
+              <li><a href="onama.html">O nama</a></li>
+              <li><a href="galerija.html">Galerija</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proizvodi <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="toshiba.html">Toshiba</a></li>
+                  <li><a href="hp.html">HP</a></li>
+                  <li><a href="dell.html">Dell</a></li>
+                  <li role="separator" class="divider"></li>
+                   <li><a href="2u1.html">2 u 1 laptop uređaji</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="office.html">Poslovni laptopovi</a></li>
+                </ul>
+              </li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="usloviplacanja.html">Uslovi plaćanja</a></li>
+            </ul>    
+          </div>
+        </div>
+      </nav>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/slajder6.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/slajder2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/slajder7.jpg" style="width:100%">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> 
+<script type="text/javascript">
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2900); 
+  
+} 
+</script>
+<section id="thumbnails">
+  <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/pocetna1.jpg" alt="prikaz Toshiba laptop uređaja">
+      <div class="caption text-center">
+        <h3>Toshiba laptopovi</h3>
+        <p>Toshibina Satellite serija prenosnih računara je nesumnjivo jedna od najprodavanijih serija ove renomirane japanske kompanije. Radi se o prenosnicima koji su poznati po lepom vanjskom izgledu, povoljnoj ceni i multimedijskim mogućnostima. Klikom na dugme detaljnije pogledajte kompletnu ponudu ovih uređaja.
+        <p><a href="toshiba.html" class="btn btn-default" role="button">Detaljnije</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/pocetna2.jpg"  alt="prikaz HP laptop uređaja">
+      <div class="caption text-center">
+        <h3>HP laptopovi</h3>
+        <p>HP cenovno pristupačni prenosivi uređaji zainteresovaće sve koji traže kompetetno kancelarijski ili školski laptop koji izgleda puno luksuznije nego što zapravo jeste.Poklopac je gladak i na rubovima zaobljen te ukrašen hromiranim HP logom. Klikom na dugme detaljnije pogledajte kompletnu ponudu ovih uređaja.</p>
+        <p><a href="hp.html" class="btn btn-default" role="button">Detaljnije</a></p>
+      </div>
+    </div>
+</div>
+
+  <div class="col-sm-6  col-md-4">
+    <div class="thumbnail">
+      <img src="img/pocetna.jpg" alt="prikaz DELL laptop uređaja">
+      <div class="caption text-center">
+        <h3>Dell laptopovi</h3>
+        <p>Dell je jedan od proizvođača koji se teško odlučuje na menjanje dobitne formule. Po tome se ne razlikuje puno od ostalih, a karakteristično je da je njegova ponuda pozamašna i po širini i po dubini, i u njenom sklopu se može naći ogroman broj modela. Klikom na dugme detaljnije pogledajte kompletnu ponudu ovih uređaja. </p>
+        <p><a href="dell.html" class="btn btn-default" role="button">Detaljnije</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+    
+	<section id="panels">
+	<div class="containter">
+	<div class="panel-panel-default">
+  <div class="row">
+  <div class="col-md-8">
+  <div class="panel-body">
+  <h4>Laptop shop</h4>
+  <h4>Da bi uspeli u poslu budite smeli, budite drugačiji i budite prvi.</h4>
+  <p>Laptop shop uspešno  posluje kako u Srbiji, tako i u regionu više od 15 godina. Pored maloprodaje, aktivno je<br> i odelenje veleprodaje, preko koga pravna lica mogu za dalju prodaju obezbediti sve proizvode koji se nalaze<br> u ponudi. Već sada, imamo veliki broj B2B naloga sa tendencijom daljeg rasta. Vlasnik ste maloprodaje računara i<br> računarske opreme? Zelite da sarađujemo? Kontaktirajte nas, kako bi vam predlozili i obrazlozili uslove zasnivanja saradnje.<br><br>
+  <a class="btn btn-default" href="onama.html" role="button">Više o nama <i class="fas fa-angle-double-right"></i></a>
+  </div>
+  </div>
+  <div class="col-md-4">
+  <img src="img/logo2.jpg" class="img-responsive" width="250px" height="100px" alt="logo">
+  </div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="row">
+<div class="col-md-4">
+<img src="img/instagr.png" class="img-responsive" alt="instagram popust">
+</div>
+<div class="col-md-8">
+<div class="panel-body">
+		<h4>Promo Januar - 20% popusta na kupovinu drugog proizvoda preko društvene mreže instagram</h4>
+		<p>Iskoristite promotivni period u mesecu Januaru i na kupovinu drugog proizvoda dobijate 20% popusta.</p>
+		<p>Promotivni period važi od 1.1.2019 do 31.1.2019 godine</p>
+		<a class="btn btn-default" href="https://www.instagram.com" role="button">Detaljnije <i class="fas fa-angle-double-right"></i></a>
+		</div>
+		</div>
+		</div>
+		</div>
+		<div class="jumbotron text-center">
+  <h1>Zadovoljni kupci</h1>
+  <p>Više od 15 godina uspešnog poslovanja  temelji se pre svega na srećnim i zadovoljnim kupcima. Koliko je važno osigurati vam sve potrebne informacije i usluge pre same kupovine, tako nam je izrazito važno da kupljenim proizvodom i obavljenom uslugom budete zadovoljni, te da u svojoj novoj investiciji možete bezbrižno uživati.
+  Briga za kupca je jedan od glavnih prioriteta našeg poslovanja pa stoga osiguravamo našim kupcima sigurne i kvalitetne proizvode, tačne i ažurne opise proizvoda i ostale tehničke podatke, upoznajemo ih s njihovim potrošačkim pravima te se trudimo sve eventualne nesporazume rešiti upravo u korist kupca.
+  </p>
+  <p><a class="btn btn-default" href="download/Spisak zadovoljnih kupaca.pdf" target="_blank" role="button">Pogledajte spisak zadovoljnih kupaca <i class="fas fa-angle-double-right"></i></a></p>
+</div>
+</div>
+</section>
+<section id="zadovoljnikupci">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<img src="img/petar.jpg" lass="img-responsive" alt="Petar">
+<h5>Petar Marković(45 godina) vlasnik firme ESANS</h6>
+<p>Laptop shop je izašao u susret mojoj kompaniji i meni, vrlo rado ću nastaviti saradnju sa njima. Smatram da su veoma pouzdani i imaju sve predispozicije da svoje poslovanje prošire na svetsko tržište.
+</div>
+<div class="col-md-4">
+<img src="img/jovana.jpg" class="img-responsive" alt="Jovana">
+<h5>Jovana Pavlović(35 godina) web designer</h6>
+<p>Veliki izbor laptopova, povoljne cene u odnosu na konkurenciju. Do sada smo dva puta sarađivali, sve pohvale.
+</div>
+<div class="col-md-4">
+<img src="img/kosta.jpg" class="img-responsive" alt="Kosta">
+<h5>Kosta Todorović(38 godina) web programer</h6>
+<p>Smatram da kompanija ima velike ambicije, trude se da izađu u susret kupcima, mislim da su nam baš oni trebali na tržištu.
+</div>
+</div>
+</div>
+</section>
+<footer>
+<div class="row text-center">
+<div class="col-md-12">
+<ul class="list-inline">
+  <li><a href="onama.html">O nama</a></li>
+  <li><a href="galerija.html">Galerija</a></li>
+  <li><a href="usloviplacanja.html">Uslovi plaćanja</a></li>
+  <li><a href="fraq.html">Česta pitanja</a></li>
+  <li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+<p><i class="fas fa-copyright"></i>
+2018 Laptop shop,
+Mileve Marić Ajnštajn 70, Novi Beograd, <a href="mailto:office@laptopshop.rs">office@laptopshop.rs</a>, <a href="011-216-9968">011/216-9968</a></p>
+
+</div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+    <ul class="list-unstyled list-inline social text-center">
+      <li class="list-inline-item"><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+      <li class="list-inline-item"><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+      <li class="list-inline-item"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+      <li class="list-inline-item"><a href="https://plus.google.com/discover"><i class="fab fa-google-plus-g"></i></a></li>
+    </ul>
+  </div>
+  </hr>
+</div>
+</footer>
+</body>
+</html>
